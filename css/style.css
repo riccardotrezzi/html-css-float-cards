@@ -4,14 +4,15 @@
     padding:0;
     margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(0, 0, 0);
     box-sizing: border-box;
+
 }
 
 /*Font*/
 #main-title{
     font-family: "gamay-wide", sans-serif;
     font-weight: 600;
+    font-size: 50px;
     font-style:italic;
     color: #83f52c;
 }
@@ -19,22 +20,27 @@
 #pixel-title{
     font-family: "pf-pixelscript", sans-serif;
     font-weight: 500;
-    font-size: 45px;
+    font-size: 55px;
     font-style: normal; 
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
 }
+
 /*general*/
-
-
+body{
+    background-color: black;
+    background-image: url(../img/backgroundpng.png);
+    background-size: cover;
+}
 .un-container{
+
     margin:0 auto;
     width: 80%;
     height:100%;
-
+    border-radius: 10px;
 }
 h1{
     text-align:center;
-    margin-top: 5%;
+    margin-top: 5;
     padding: 15px;
 }
 
@@ -49,7 +55,7 @@ h1 #main-title, h1 #pixel-title{
 
 /*Main*/
 #description{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -69,6 +75,7 @@ h1 #main-title, h1 #pixel-title{
     display: inline;
     border-radius: 10px;
     border: 1px solid whitesmoke;
+    background-color: rgb(0, 0, 0);
 }
 
 .picture{
@@ -102,4 +109,13 @@ h1 #main-title, h1 #pixel-title{
 
 .people > *{
     vertical-align: center;
+}
+
+.people:hover{
+    background-image: url(../img/ginew-hover.webp);
+    background-size: cover;
+    transition: 1.0s;
+    padding: 15px;
+    border:none;
+    box-shadow: 1px 0px 30px #83f52c;
 }
