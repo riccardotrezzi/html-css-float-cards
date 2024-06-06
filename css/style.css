@@ -4,24 +4,102 @@
     padding:0;
     margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
 }
 
 /*Font*/
-.main-title{
+#main-title{
     font-family: "gamay-wide", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style:italic;
+    color: #83f52c;
 }
 
-.pixel-title{
+#pixel-title{
     font-family: "pf-pixelscript", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 45px;
     font-style: normal; 
     color: whitesmoke;
 }
 /*general*/
 
+
+.un-container{
+    margin:0 auto;
+    width: 80%;
+    height:100%;
+
+}
 h1{
     text-align:center;
+    margin-top: 5%;
+    padding: 15px;
 }
-/*  */
+
+/* Header */
+header{
+    padding: 10px;
+}
+
+h1 #main-title, h1 #pixel-title{
+    vertical-align:super;
+}
+
+/*Main*/
+#description{
+    color: white;
+    text-align: center;
+}
+
+.main-container{
+    display: inline-block;
+    margin-top:50px;
+    width:100%;
+}
+
+.main-container > *{
+    float:left;
+    width: calc((100%/3) - 20px);
+    margin:10px;
+}
+
+.people{
+    display: inline;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+.picture{
+    float:left;
+    height: 100px;
+    width:100px;
+    margin-right:10px;
+    border-radius: 10px;
+}
+
+.name{
+    margin-bottom: 5px;
+    vertical-align:top;
+    font-family: "gamay-wide", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    color: #83f52c;
+}
+
+.job{
+    margin-bottom: 5px;
+    color:whitesmoke;
+    font-family: "gamay-wide", sans-serif;
+    font-weight: 300;
+    font-style:italic; 
+}
+
+.mail{
+    color:#83f52c;
+}
+
+.people > *{
+    vertical-align: center;
+}
