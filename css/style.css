@@ -1,0 +1,27 @@
+
+/*Reset*/
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Font*/
+.main-title{
+    font-family: "gamay-wide", sans-serif;
+    font-weight: 700;
+    font-style:italic;
+}
+
+.pixel-title{
+    font-family: "pf-pixelscript", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: whitesmoke;
+}
+/*general*/
+
+h1{
+    text-align:center;
+}
+/*  */
