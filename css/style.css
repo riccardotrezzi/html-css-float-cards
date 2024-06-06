@@ -15,14 +15,20 @@
     font-size: 50px;
     font-style:italic;
     color: #83f52c;
+    margin-right: 10px
+
 }
 
 #pixel-title{
     font-family: "pf-pixelscript", sans-serif;
     font-weight: 500;
-    font-size: 55px;
+    font-size: 65px;
     font-style: normal; 
     color: rgb(255, 255, 255);
+}
+
+h3{
+    font-size: 20px;
 }
 
 /*general*/
@@ -32,10 +38,8 @@ body{
     background-size: cover;
 }
 .un-container{
-
     margin:0 auto;
     width: 80%;
-    height:100%;
     border-radius: 10px;
 }
 h1{
@@ -67,8 +71,8 @@ h1 #main-title, h1 #pixel-title{
 
 .main-container > *{
     float:left;
-    width: calc((100%/3) - 20px);
-    margin:10px;
+    width: calc((100%/3) - 30px);
+    margin:15px;
 }
 
 .people{
@@ -104,15 +108,23 @@ h1 #main-title, h1 #pixel-title{
 }
 
 .mail{
-    color:#83f52c;
+    color:#ffffff;
+    text-shadow: 0px 1px 15px #191919;
 }
 
 .people > *{
     vertical-align: center;
 }
 
+div.people::after{
+    clear: both;
+    display:block;
+    content:"";
+}
+
 .people:hover{
-    background-image: url(../img/ginew-hover.webp);
+    background-color: black;
+    background-image: url(../img/guldo-hover.webp);
     background-size: cover;
     transition: 1.0s;
     padding: 15px;
